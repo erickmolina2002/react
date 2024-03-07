@@ -1,10 +1,13 @@
 import {} from 'react'
+import Home from './components/Home'
+import Dados from './components/Dados'
+
 function App() {
-  const soma = (a, b) => a + b
+
   return (
     <>
-      <h1>React App</h1>
-      <p>2 + 3 = {soma(2, 3)}</p>
+      <Dados nome="João" idade="25" cidade="São Paulo" />
+      <Home />
     </>
   )
 }
